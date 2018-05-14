@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/03/Amazing-Artistic-Wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:rgb(176,88,0);
+  font-weight: bold;
+}
+
+.buttons{
+  border: 2px solid rgb(176,88,0);
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25px;
+  color:rgb(176,88,0);
+  font-weight: bold;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: Monoton;
+  font-size: 70px;
+  margin: 0.2em;
+
+}
+
+h2 {
+  margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+  margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 1px;
+  margin: 0 auto;
+  background-color: white !important;
+
+}
+
+tr {
+  height: 30px;
+}
+
+td {
+  width: 30px;
+  background-color: #ffffff;
+}
+
+input[type=number] {
+  width: 3em;
+  height: 2em;
+  border: transparent;
+  border-radius: 5px;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.5);
+  color:black;
+  font-weight: bold;
+  font-size: larger;
+
+}
+
+#colorPicker{
+  border: 2px solid rgb(176,88,0);
+  border-radius: 15px;
+  background-color:rgba(0, 0, 0, 0.5);
+
+}
